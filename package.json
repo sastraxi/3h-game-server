@@ -1,5 +1,5 @@
 {
-  "name": "3h-game",
+  "name": "3h-game-server",
   "version": "1.0.0",
   "main": "src/main.ts",
   "license": "MIT",
@@ -18,6 +18,7 @@
     "socket.io-client": "^2.3.0"
   },
   "scripts": {
-    "start": "ts-node --files src/server.ts"
+    "start": "ts-node --files src/server.ts",
+    "test": "ts-node --files src/test-client.ts"
   }
 }
